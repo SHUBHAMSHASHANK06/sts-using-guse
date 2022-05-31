@@ -4,3 +4,4 @@ uvicorn
 fastapi
 tensorflow
 tensorflow_hub
+gunicorn
