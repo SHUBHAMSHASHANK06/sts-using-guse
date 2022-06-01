@@ -3,4 +3,5 @@ pandas
 uvicorn
 fastapi
 python-multipart
+tensorflow-cpu
 tensorflow_hub
