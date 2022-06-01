@@ -1,11 +1,11 @@
 import uvicorn
-from fastapi import FastAPI
+from fastapi import FastAPI, Form
 from main import score
 
 app = FastAPI()
 
-@app.post("/input")
-async def input(text1 : str = Form(), text2 : str = Form()):
+@app.post("/input/")
+def input(text1 : str = Form(), text2 : str = Form()):
     return ("similarity_score = ", score(text1, text2))
 
 if __name__ == "__main__":
