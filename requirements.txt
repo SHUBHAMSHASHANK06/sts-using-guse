@@ -2,4 +2,5 @@ numpy
 pandas
 uvicorn
 fastapi
+python-multipart
 tensorflow_hub
