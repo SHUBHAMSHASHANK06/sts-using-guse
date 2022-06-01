@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI, Form
-# from main import score
+from main import score
 
 app = FastAPI()
 
