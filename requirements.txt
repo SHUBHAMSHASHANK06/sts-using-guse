@@ -3,5 +3,5 @@ pandas
 uvicorn
 fastapi
 python-multipart
-tf-nightly
+tf-nightly-cpu
 tensorflow_hub
